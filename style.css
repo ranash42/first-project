@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+}
+h1 {
+    font-size: 44px;
+}
+.header{
+    background: url('images/top-banner.png') no-repeat ;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.rana {
+    color: #FFA509;
+}
+.header-text {
+    width: 50%;
+    float: left;
+}
+.header-text p {
+  font-size: 20px;
+  color: #86A0BB;  
+}
+.header-text a {
+    border: 1px solid rgb(192, 81, 81);
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: rgb(192, 81, 81);
+    color: #fff;
+    text-decoration: none;
+}
+.header-img {
+    width: 45%;
+    overflow: hidden;
+}
+
+.dream {
+    background: url(images/dream-bg.png) no-repeat right bottom;
+    margin: 80px 0;
+    overflow: hidden;
+}
+.dream-text p {
+  font-size: 20px;
+  color: #86A0BB;  
+}
+.dream-text a {
+    border: 1px solid rgb(192, 81, 81);
+    border-radius: 5px;
+    padding: 10px 25px;
+    background: rgb(192, 81, 81);
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+.dream-img {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+
+.dream-text{
+    width: 50%;
+    overflow: hidden;
+}
+.exprience {
+    background: url(images/exp-bg.png) no-repeat;
+}
+.exprience h2 {
+    font-size: 32px;
+}
+.exprience .card-one{
+    width: 45%;
+    border-left: 7px solid;
+    border-image: linear-gradient(170deg, blue,cyan);
+    border-image-slice: 1;
+    margin-right: 3%;
+    box-shadow: 10px 10px 75px black;
+    padding: 10px 15px;
+    float: left;
+    min-height:250px;
+}
+h4 {
+    color: #FFA500;
+    font-size: 20px;
+}
+.card-two {
+    width: 45%;
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg,rgb(7, 73, 7), tomato);
+   border-image-slice: 1;
+   overflow: hidden;
+   box-shadow: 10px 10px 75px black;
+   padding: 10px 15px;
+   min-height: 250px;
+}
+footer h6 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+    .header-text {
+        float: none;
+        width: 100%;
+    }
+    .header-img{
+        overflow: inherit;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .dream-img{
+         float: none;
+        width: 100%;
+    }
+    .dream-text{
+         overflow: inherit;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .exprience .card-one{
+         float: none;
+        width: 100%;
+    }
+    .card-two{
+        overflow: inherit;
+        width: 100%;
+        margin-top: 40px;
+    }
+}
